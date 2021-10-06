@@ -9,7 +9,8 @@ $posts = array(
 
 );
 
-$_SESSION("llistaPosts",$posts);
+$_SESSION["llistaPosts"]=$posts;
 
-var_dump($_SESSION("llistaPosts"));
+var_dump($_SESSION["llistaPosts"]);
+
 ?>
